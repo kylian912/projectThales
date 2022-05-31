@@ -1,7 +1,7 @@
 # hoofdChart met subcharts
 
 Dit is een voorbeeld van hoe een chart met subcharts gebouwd kan worden in Helm 3.
-We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subchart. De tweede subchart is een mongodb van bitnami, opgehaald van internet.
+We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subchart (nginx webserver). De tweede subchart is een mongodb van bitnami, opgehaald van internet.
 
 ## Om te installeren:
 
