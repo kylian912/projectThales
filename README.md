@@ -27,3 +27,4 @@ We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subcha
 
     ```kubectl get pods```
     
+Als het goed is draaien er nu vier pods. 1x mongodb en 3x subchart.
