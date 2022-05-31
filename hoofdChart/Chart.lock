@@ -1,0 +1,9 @@
+dependencies:
+- name: subchart
+  repository: file://../subchart
+  version: 0.1.0
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 10.10.1
+digest: sha256:7a3c4eb8a2c418eaa336571feaec9ffd31ef2d284a569ecfcc3574d5e0f80a34
+generated: "2022-05-31T11:14:39.079383608+02:00"

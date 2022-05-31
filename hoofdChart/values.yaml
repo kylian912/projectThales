@@ -1,0 +1,8 @@
+subchart:
+  enabled: true
+  replicaCount: 3
+  
+mongodb:
+  enabled: true
+
+
