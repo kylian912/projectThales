@@ -1,11 +1,11 @@
 # hoofdChart met subcharts
 
 Dit is een voorbeeld van hoe een chart met subcharts gebouwd kan worden in Helm 3.
-We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subchart. De tweede subchart is een mongodb van internet.
+We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subchart. De tweede subchart is een mongodb van bitnami, opgehaald van internet.
 
 ## Om te installeren:
 
-1. Maak een namespace aan met de naam: thales ((Deze wordt gebruikt door subchart)
+1. Maak een namespace aan met de naam: thales (Deze wordt gebruikt door subchart)
 
     ```kubectl create ns thales```
 
@@ -14,9 +14,7 @@ We hebben een Hoofdchart met twee subcharts. Een lokale subchart genaamd: subcha
     ```kubectl config set-context --current --namespace thales```
 
 3. Kopiër het mapje hoofdChart en subchart van github naar de Desktop.
-
 4. Open de terminal en navigeer naar het mapje hoofdChart.
-
 5. Met de terminal in hoofdChart, update alle subcharts.
 
     ```helm dependency update```
